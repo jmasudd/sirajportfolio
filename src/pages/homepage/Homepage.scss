@@ -1,0 +1,74 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  .container {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    opacity: 87%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .mid {
+    position: absolute;
+    // border: 2px solid black;
+    background-color: rgba(61, 49, 49, 0.44);
+    margin-left: 10vw;
+    margin-right: 40vw;
+    margin-top: 20vh;
+    .header {
+      font-family: "rage";
+      font-size: 8vw;
+      color: white;
+      padding-left: 1vw;
+      // margin-top: 13vh;
+      // margin-left: 10vw;
+      // // position: absolute;
+    }
+
+    .text {
+      // margin-top: 45vh;
+      // margin-left: 9.5vw;
+      // margin-right: 35vw;
+      padding-left: 2vw;
+      padding-right: 2vw;
+      padding-top: 15vh;
+      padding-bottom: 3vh;
+      font-size: 1.2rem;
+      font-family: "Century Gothic";
+      color: white;
+    }
+  }
+
+  .dp {
+    margin-top: 35.5vh;
+    margin-left: 69.2vw;
+    width: 10rem;
+    border-radius: 50%;
+    position: absolute;
+  }
+
+  .navigation {
+    position: absolute;
+    display: inline;
+    margin-left: 9vw;
+    margin-top: 75.8vh;
+    .navmenu {
+      display: inline;
+      padding: 4.2vh;
+      font-family: "Bahnschrift";
+      font-size: 1.3rem;
+      color: white;
+      cursor: pointer;
+    }
+
+    .border {
+      border-right: 1px solid white;
+      height: 12px;
+    }
+  }
+}

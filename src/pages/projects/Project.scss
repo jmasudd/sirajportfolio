@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.card {
+  width: 30%;
+  height: 240px;
+  display: inline-block;
+  .bg-image {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .content {
+    border: 1px solid white;
+
+    .about {
+      font-size: 12px;
+    }
+  }
+}
